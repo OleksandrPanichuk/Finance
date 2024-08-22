@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1719565522251,
+      "tag": "0000_numerous_havok",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1719566148529,
+      "tag": "0001_cold_microbe",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1724334645592,
+      "tag": "0002_worthless_harry_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1724335818428,
+      "tag": "0003_dapper_monster_badoon",
+      "breakpoints": true
+    }
+  ]
+}
