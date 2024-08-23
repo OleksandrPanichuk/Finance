@@ -29,6 +29,27 @@
       "when": 1724335818428,
       "tag": "0003_dapper_monster_badoon",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1724394055116,
+      "tag": "0004_yummy_vulture",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1724397766483,
+      "tag": "0005_absurd_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1724400652317,
+      "tag": "0006_outgoing_impossible_man",
+      "breakpoints": true
     }
   ]
 }

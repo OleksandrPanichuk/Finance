@@ -13,6 +13,7 @@ import {
 	useGetAccounts,
 	useNewAccount
 } from '@/features/accounts'
+import { PlaidLink } from '@/features/plaid'
 import { Loader2, Plus } from 'lucide-react'
 import { columns } from './columns'
 
@@ -45,10 +46,13 @@ const AccountsPage = () => {
 			<Card className="border-none drop-shadow-sm">
 				<CardHeader className="gap-y-2 md:flex-row md:items-center md:justify-between">
 					<CardTitle className="text-xl line-clamp-1">Accounts</CardTitle>
-					<Button size="sm" onClick={onOpen}>
-						<Plus className="size-4 mr-2" />
-						Add new
-					</Button>
+					<div className="flex flex-col items-center gap-x-2 gap-y-2 lg:flex-row">
+						<PlaidLink />
+						<Button size="sm" onClick={onOpen}>
+							<Plus className="size-4 mr-2" />
+							Add new
+						</Button>
+					</div>
 				</CardHeader>
 				<CardContent>
 					<DataTable

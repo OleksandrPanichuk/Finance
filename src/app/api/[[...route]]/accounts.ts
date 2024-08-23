@@ -27,8 +27,8 @@ const app = new Hono()
 	})
 	.get(
 		'/:id',
-		zValidator('param', z.object({ id: z.string().optional() })),
 		clerkMiddleware(),
+		zValidator('param', z.object({ id: z.string().optional() })),
 		async (c) => {
 			const auth = getAuth(c)
 			const { id } = c.req.valid('param')
@@ -63,7 +63,7 @@ const app = new Hono()
 			'json',
 			insertAccountSchema.pick({
 				name: true
-			})
+			}),
 		),
 		async (c) => {
 			const auth = getAuth(c)

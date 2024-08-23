@@ -1,0 +1,1 @@
+ALTER TABLE "accounts" ADD COLUMN "plaid_account_id" text;
